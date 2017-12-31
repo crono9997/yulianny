@@ -1,0 +1,124 @@
+body {
+	font-family: Rajdhani, sans-serif;
+}
+
+.test {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 1024px;
+}
+
+header {
+	background-color: #000;
+	height: 55px;
+	position: fixed;
+	display: block;
+	width: 100%;
+	z-index: 1;
+}
+
+header ul {
+	display: flex;
+	padding: 5px 37px;
+	box-sizing: border-box;
+	justify-content: space-between;
+	width: 1024px;
+	margin: auto;
+}
+
+header li {
+	line-height: 45px;
+}
+
+header li:first-child {
+	background-image: url(../img/yulianny-logo.png);
+	width: 153px;
+	height: 45px;
+	background-repeat: no-repeat;
+	background-size: 130px;
+	background-position: left 1px;
+	display: block;
+}
+
+header a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: lowercase;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+main {
+	width: 1024px;
+	margin: auto;
+	padding-top: 55px;
+	position: relative;
+}
+
+section {
+	position: relative;
+}
+
+section.col-2 {
+	display: flex;
+}
+
+section.col-1 {
+}
+
+section .image {
+	background-size: cover;
+	background-position: center;
+}
+
+section.col-2 .image {
+	width: 50%;
+}
+
+section.col-1 .image {
+	height: 493px;
+	display: block;
+	/*background-attachment: fixed;*/
+}
+
+.details {
+	height: 100%;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 351px 0 100px;
+}
+
+.details h3,
+.details .description,
+.details .key-words {
+	padding: 3px 42px;
+	text-transform: uppercase;
+}
+
+.details h3 {
+	color: #fcb513;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-bottom: 3px dotted;
+	padding-bottom: 7px;
+	margin-bottom: 9px;
+}
+
+.details h3:after {
+	display: block;
+	border-bottom: 1px dashed;
+}
+
+.details .description {
+	font-weight: bold;
+	color: #8d8d8d;
+}
+
+.details .key-words {
+	color: #8d8d8d;
+	font-size: 11px;
+}
