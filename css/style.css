@@ -63,8 +63,8 @@ header .contact {
 }
 
 main {
-	width: 1024px;
-	margin: auto;
+	/* width: 1024px; */
+	/* margin: auto; */
 	padding-top: 55px;
 	position: relative;
 }
@@ -80,6 +80,8 @@ main {
 
 section {
 	position: relative;
+	width: 1024px;
+	margin: auto;
 }
 
 section.col-2 {
@@ -118,13 +120,19 @@ section.col-1 .image {
     width: auto; 
 }*/
 
+.col-b h1 {
+	    width: 1024px;
+    display: block;
+    margin: auto;
+}
+
 
 section.col-b {
 	height: 50px;
 	width: 944px;
 	/*background-color: #798E36;*/
 	background-color: #8D6056;
-/*	background-color: #E25B67;*/
+	/*	background-color: #E25B67;*/
 	/*color: #ffffff;*/
 	/*color: #E25B67;*/
 	color: yellow;
@@ -135,7 +143,8 @@ section.col-b {
 	letter-spacing: 3px;
 	padding: 30px 40px 0px;
 	/*margin-bottom: 9px;*/
-
+	/* width: 100vw; */
+	/* margin: 0; */
 }
 
 
@@ -148,7 +157,7 @@ section.col-1 .image.long {
 	height: 100%;
 	width: 100%;
 	box-sizing: border-box;
-	padding: 299px 0 100px;
+	padding: 296px 0 101px;
 }
 
 .details h3,
@@ -167,6 +176,7 @@ section.col-1 .image.long {
 	border-bottom: 2px dotted;
 	padding-bottom: 12px;
 	margin-bottom: 9px;
+	border-radius: 0.1px;
 }
 
 .details h3:after {
@@ -186,3 +196,10 @@ section.col-1 .image.long {
 	letter-spacing: 1.5px;
 }
 
+section.col-1 .image.vitamin-water {
+	height: 240px;
+}
+
+section.col-1 .image.summa {
+	height: 320px;
+}
