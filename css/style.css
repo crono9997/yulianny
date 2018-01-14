@@ -34,6 +34,7 @@ header li {
 
 header li:first-child {
 	background-image: url(../img/yulianny-logo.png);
+	background-image: url(../img/contact-icon.png);
 	width: 153px;
 	height: 45px;
 	background-repeat: no-repeat;
@@ -56,6 +57,15 @@ main {
 	padding-top: 55px;
 	position: relative;
 }
+
+.icon {
+	width: 937px;
+	height: 20 px;
+	margin: auto;
+	padding-top: 5px;
+	position: relative;
+}
+
 
 section {
 	position: relative;
@@ -87,8 +97,39 @@ section.col-1 .image {
 	/*background-attachment: fixed;*/
 }
 
+/*section.col-1 .image-2{
+	height: 50px;
+	display: block;
+	width: 1024px;
+	background-size: cover;
+	background-position: center;
+	height: auto; 
+    width: auto; 
+}*/
+
+
+section.col-b {
+	height: 50px;
+	width: 944px;
+	/*background-color: #798E36;*/
+	background-color: #8D6056;
+/*	background-color: #E25B67;*/
+	/*color: #ffffff;*/
+	/*color: #E25B67;*/
+	color: yellow;
+	font-size: 26px;
+	font-weight: regular;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	letter-spacing: 3px;
+	padding: 30px 40px 0px;
+	/*margin-bottom: 9px;*/
+
+}
+
+
 section.col-1 .image.long {
-	height: 948px;
+	height: 1419px;
 }
 
 
