@@ -200,6 +200,12 @@ section.col-1 .image.vitamin-water {
 	height: 240px;
 }
 
+section.col-1 .image.onia {
+	height: 700px;
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+
 section.col-1 .image.summa {
 	height: 320px;
 }
