@@ -209,3 +209,10 @@ section.col-1 .image.onia {
 section.col-1 .image.summa {
 	height: 320px;
 }
+
+section.col-1 .image.top {
+	    height: 510px;
+    background-size: auto 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
