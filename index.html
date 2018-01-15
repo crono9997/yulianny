@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani|Bad+Script" rel="stylesheet">
     <link rel="shortcut icon" href="img/yulianny-icon.png" type="image/png">
   
   </head>
@@ -14,21 +14,30 @@
       <nav>
         <ul>
           <li><a href="#"></a></li>
-          <li><a href="#">Digital</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Print</a></li>
-          <li><a href="#">Photo</a></li>
-          <li><a class="location" href="#"></a><a class="contact" href="#"></a></li>
+          <li><a href="#Digital">Digital</a></li>
+          <li><a href="#Product">Product</a></li>
+          <li><a href="#Print">Print</a></li>
+          <li><a href="#Photo">Photo</a></li>
+          <li>
+            <a class="location" href="#">
+              <div class="sf">
+                <div class="pic"></div>
+                <span class="message">I currently reside<br />in San Francisco, CA.</span>
+              </div>
+            </a>
+            <a class="contact" href="#contact"></a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="col-1">
-        <div class="image top" style="background-image:url(img/y-home-2.png);"></div>
+        <div class="image top" style="background-image:url(img/y-home-2.png);">
+          <span class="welcome-message">Hello, my name is Yenny Yulianny<br />I do web and graphic design</span>
+        </div>
       </section>
 
-      <section class="col-b">
-        <div class="image-2" style="background-image:url(img/yulianny-break-1.png);"></div>
+      <section id="Digital" class="col-b">
         <h1>Digital</h1>
         
       </section>
@@ -108,7 +117,7 @@
         <div class="image onia" style="background-image:url(img/onia/onia-h.png);"></div>
       </section>
 
-      <section class="col-b">
+      <section id="Product" class="col-b">
           <h1>Product</h1>
       </section>
 
@@ -172,7 +181,7 @@
         <div class="image" style="background-image:url(img/o-waves/o-waves-h.png);"></div>
       </section>
 
-      <section class="col-b">
+      <section id="Print" class="col-b">
           <h1>Print</h1>
       </section>
 
@@ -220,22 +229,18 @@
       <section class="col-1">
         <div class="image vitamin-water" style="background-image:url(img/vit-water/vit-wat-hx.png);"></div>
       </section>
-    
-      <section class="col-b">
-          <h1>Logo</h1>
-      </section>
       <section class="col-1">
         <div class="image" style="background-image:url(img/y-logo.png);"></div>
       </section>
 
-      <section class="col-b">
+      <section id="Photo" class="col-b">
           <h1>Photo</h1>
       </section>
       <section class="col-1">
         <div class="image long" style="background-image:url(img/photo/photo-h.png);"></div>
       </section>
       
-      <section class="col-1">
+      <section id="contact" class="col-1">
         <div class="image" style="background-image:url(img/y-contact.png);"></div>
       </section>
     </main>
